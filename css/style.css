@@ -1,0 +1,469 @@
+/*************************************
+************Global CSS Start**********
+**************************************/
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif; 
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+/*************************************
+************Global CSS End**********
+**************************************/
+
+/*************************************
+************Header CSS Start**********
+**************************************/
+.navbar {
+    background: transparent !important;
+}
+.nav-item .nav-link a{
+	color: #fff;
+}
+
+.banner-section{
+	width: 100%;
+	background: url(../images/Design.png) center top no-repeat;
+	background-size: cover;
+	background-color: #0d1838;
+
+}
+.banner-section .banner-inner{
+	width: 100%;
+	padding: 200px 0px;
+}
+.banner-section .banner-inner .banner-title {
+  width: 100%;
+  padding: 90px 0px 0px;
+  text-align: center;
+
+	
+}
+.banner-section .banner-inner .banner-title h1{
+	color:#fff;
+	 font-size: 45px;
+	 margin-top: 10px;
+}
+.banner-section .banner-inner .banner-body{
+	
+	text-align: center;
+	
+}
+.banner-section .banner-inner .banner-body p{
+	color: #fff;
+	line-height: 28px;
+	font-size: 17px;
+	margin-left: 15px;
+}
+
+
+/*************************************
+************Header CSS END**********
+**************************************/
+
+/*************************************
+************History CSS start**********
+**************************************/
+
+.history-section{
+	width: 100%;
+	padding: 30px 0px;
+	background: #f2f2f3;
+	
+	
+}
+
+.history-section .history-inner1{
+	width:100%;
+	
+}
+.history-section .history-inner1 p{
+	margin-top: 15px;
+	line-height: 25px;
+}
+.history-section .history-inner2{
+
+}
+.history-section .history-inner2 img{
+	width: 100%;
+}
+
+/*************************************
+************History CSS end**********
+**************************************/
+
+
+/*************************************
+************First CSS Start**********
+**************************************/
+.first-section{
+	width: 100%;
+    padding: 60px 0px;
+	background-color: #f2f2f3;
+}
+.first-section .first-inner1{
+	width: 100%;
+	
+}
+.first-section .first-inner1 img{
+	width: 100%;
+}
+
+
+/*************************************
+************First CSS End**********
+**************************************/
+
+/*************************************
+************Two CSS Start**********
+**************************************/
+
+
+
+.two-section{
+	width: 100%;
+    padding: 60px 0px;
+	background-color: #f2f2f3;
+}
+.two-section .two-inner1{
+	width: 100%;
+	
+}
+.two-section .two-inner1 p{
+	margin-top: 20px;
+}
+.two-section .two-inner2 img{
+	width: 100%;
+}
+/*************************************
+************Two CSS End***************
+**************************************/
+
+/*************************************
+************Important CSS Start*******
+**************************************/
+.important-section{
+	width: 100%;
+	padding: 60px 0px;
+	background:#0d1838; 
+}
+.important-section .important-inner{
+	width: 100%;
+}
+.important-section .important-inner h2{
+	text-align: center;
+	color: #fff;
+}
+.important-section .important-inner h1{
+	text-align: center;
+	color: #fff;
+}
+.important-section .important-inner p{
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.important-section .important-inner2{
+	width: 100%;
+}
+
+.important-section .important-inner2 ul li{
+	margin-top: 20px;
+	display: inline-block;
+
+}
+.important-section .important-inner2 ul li p{
+	font-size: 16px;
+
+}
+.important-section .important-inner2 h4 {
+    color: #fff;
+    line-height: 30px;
+}
+
+.important-section .important-inner2 .important-list{
+	width: 100%;
+	color: #fff;
+	 
+}
+
+
+.important-section .important-inner3{
+	width: 100%;
+}
+.important-section .important-inner3 h4{
+	
+	color: #fff;
+}
+.important-section .important-inner3 .quran-verse p{
+	color: #fff;
+	text-align: right;
+	font-size: 22px;
+	line-height: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.important-section .important-inner3 .translation p{
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.important-section .hadiths{
+	width: 100%;
+	margin: 40px 0px 30px;
+}
+.important-section .hadiths h3{
+	text-align: center;
+	color: #fff;
+}
+.important-section .hadith1 p{
+	color: #fff;
+}
+.important-section .hadith2 p{
+	color: #fff;
+}
+.important-section .hadith3 p{
+	color: #fff;
+}
+/*************************************
+************Important CSS End*******
+**************************************/
+
+
+/*************************************
+************Practice CSS Start*******
+**************************************/
+
+.practice-section{
+	width: 100%;
+	padding: 50px 0px;
+	color: #0d1838;
+}
+.practice-section .practice-inner h1{
+	text-align: center;
+	color: #0d1838;
+}
+.practice-section .practice-inner p{
+	text-align: center;
+	color: #0d1838;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.practice-section .practice-inner1 img{
+	width: 100%;
+}
+.practice-section .practice-inner2{
+	border-left: 3px solid #C1B190;
+	padding-left: 10px;
+
+
+}
+
+.practice-section .practice-inner2 h3{
+
+}
+
+.practice-section .practice-inner2 p{
+	font-size: 18px;
+	text-align: left;
+}
+.practice-inner3{
+	width: 100%;
+	padding: 60px 0px;
+}
+.practice-inner3 p{
+	text-align: left;
+
+}
+.practice-inner3 .duya p{
+	color: #0d1838;
+	text-align: right;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.utterance p{
+	font-size: 17px;
+}
+.translate p{
+	font-size: 17px;
+}
+
+/*************************************
+************Practice CSS End*******
+**************************************/
+.ifter-section{
+	width: 100%;
+	padding: 40px 0px;
+}
+.ifter-section .ifter-inner1 img{
+	width: 100%;
+}
+.ifter-section .ifter-inner2{
+	border-left: 3px solid #000;
+	padding-left: 12px;
+}
+.ifter-section .ifter-inner2 .duya p {
+	color: #0d1838;
+	text-align: right;
+	line-height: 40px;
+	font-size: 35px;
+	margin-bottom: 20px;
+
+}
+	
+.charity-section{
+	width: 100%;
+	padding: 40px 0px;
+}
+.charity-section .charity-inner img{
+	width: 100%;
+}
+.night-prayer{
+	width: 100%;
+	padding: 40px 0px;
+}
+.night-prayer .night-inner1 img{
+	width: 100%;
+}
+.night-prayer .night-inner2{
+	border-left: 3px solid #C1B190;
+	padding-left: 10px;
+
+}
+.read-quran{
+	width: 100%;
+	padding: 40px 0px;
+}
+.read-inner2 img{
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+/*************************************
+************Ifter CSS End*******
+**************************************/
+
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 3px solid #0d1838;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #0d1838;
+
+  color: #fff;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 15px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: transparent;
+  border: 2px solid #0d1838;
+}
+
+
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-box img{
+	width: 100%;
+}
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color:;
+  color:;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color:;
+  color:;
+  transform: rotateY(180deg);
+}
+
+
+
